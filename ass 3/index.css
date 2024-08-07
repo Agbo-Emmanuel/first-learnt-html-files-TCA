@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+}
+
+.one{
+    width: 100%;
+    height: 8%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+}
+.oneitem1 img{
+    width: 130px;
+    height: 25px;
+}
+
+.oneitem1{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-left: 50px;
+}
+.oneitem1 button{
+    width: 120px;
+    height: 40px;
+    background-color: rgb(77, 97, 175);
+    color: white;
+    border: none;
+}
+.oneitem2{
+    width: 20%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gap1{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+}
+
+.two{
+    width: 100%;
+    height: 700px;
+    background-color: lightgrey;
+    display: flex;
+
+}
+.twoitem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: Arial;
+    font-size: 25px;
+    gap: 20px;
+    padding-top: 2px;
+    padding-left: 45px;
+}
+.twoitem1 h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.twoitem1 span{
+    display: flex;
+    gap: 30px;
+}
+.twoitem2{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+}
+.twoitem2 img{
+    width: 100%;
+    height: 100%;
+}
+
+.gap2{
+    width: 100%;
+    height: 150px;
+}
+
+.three{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+    gap: 50px;
+    font-family: Arial;
+}
+.three h1{
+    font-size: 50px;
+}
+.three span{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.three button{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(66, 66, 208);
+    border-radius: 5px;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    border: none;
+}
+
+.gap3{
+    width: 100%;
+    height: 50px;
+}
+
+.four{
+    width: 100%;
+    height: 600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.fouritem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    box-shadow: 0 0 15px 1px lightgrey;
+}
+.fouritem1 img{
+    width: 100%;
+    height: 100%;
+}
+.fouritem2{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.itemf1{
+    width: 100%;
+    height: 49%;
+    background-color: transparent;
+    box-shadow: 0 0 15px 1px lightgrey;
+    display: flex;
+}
+.f1f1{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+}
+.f1f1 img{
+    width: 100%;
+    height: 100%;
+}
+
+.f1f2{
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.f1f2 span{
+    display: flex;
+    gap: 5px;
+    font-size: 17px;
+}
+.f1f2 h4{
+    font-size: 20px;
+    color: blue;
+}
+input{
+    width: 25px;
+    height: 25px;
+}
+
+
+.itemf2{
+    width: 100%;
+    height: 49%;
+    background-color: transparent;
+    display: flex;
+    box-shadow: 0 0 15px 1px lightgrey;
+}
+
+.gap4{
+    width: 100%;
+    height: 50px;
+}
+
+.five{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 100px;
+    gap: 50px;
+    font-family: Arial;
+}
+.five span{
+    display: flex;
+    gap: 20px;
+    font-size: 30px;
+}
+.five button{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(66, 66, 208);
+    border-radius: 5px;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    border: none;
+}
+
+.six{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sixitem1{
+    width: 45%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    display: flex;
+    gap: 50px;
+}
+.item1s1{
+    width: 47%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.s1s1{
+    width: 100%;
+    height: 49%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px 1px lightgrey;
+}
+.simg1{
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+.simg1 img{
+    width: 100%;
+    height: 100%;
+}
+.simg2{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 17px;
+    gap: 10px;
+}
+.simg2 span{
+    display: flex;
+    gap: 10px;
+}
+.simg2 h4{
+    color: blue;
+}
+.s1s2{
+    width: 100%;
+    height: 49%;
+    background-color: transparent;
+    box-shadow: 0 0 10px 1px lightgrey;
+}
+.item1s2{
+    width: 47%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.s1s1{
+    width: 100%;
+    height: 49%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+.simg1{
+    width: 100%;
+    height: 70%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+.simg1 img{
+    width: 100%;
+    height: 100%;
+}
+.simg2{
+    width: 100%;
+    height: 30%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 17px;
+    gap: 10px;
+}
+.simg2 span{
+    display: flex;
+    gap: 10px;
+}
+.simg2 h4{
+    color: blue;
+}
+.s1s2{
+    width: 100%;
+    height: 49%;
+    background-color: transparent;
+}
+.sixitem2{
+    width: 45%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 1px lightgrey;
+}
+.sixitem2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}

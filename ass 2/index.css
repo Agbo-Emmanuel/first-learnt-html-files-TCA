@@ -1,0 +1,691 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.one{
+    width: 100%;
+    height: 8%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    cursor: pointer;
+    font-family: Arial;
+}
+
+.oneitem1{
+    width: 45%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-left: 50px;
+}
+.oneitem1 button{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.oneitem2{
+    width: 20%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: purple;
+}
+.sin{
+    width: 95px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid purple;
+    color: purple;
+}
+
+.two{
+    width: 100%;
+    height: 90px;
+    background-color: rgb(118, 118, 212);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twoitem1{
+    font-size: 17px;
+    color: white;
+    font-family: Arial;
+}
+
+.three{
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threeitem1{
+    width: 39%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial;
+    gap: 15px;
+    padding-left: 150px;
+    font-size: 20px;
+}
+.threeitem2{
+    width: 55%;
+    height: 100%;   
+    background-image: url(/ass2img\ 0.jpg);
+}
+.btn{
+    width: 50%;
+    height: 50px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn1{
+    width: 40%;
+    height: 35px;
+    background-color: rgb(118, 118, 212);
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial;
+    border: none;
+    cursor: pointer;
+}
+.btn2{
+    width: 50%;
+    height: 35px;
+    border: 2px solid rgb(118, 118, 212);
+    color: rgb(118, 118, 212);
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+.four{
+    width: 93%;
+    height: 251px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fouritem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.fouritem2{
+    width: 55%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    gap: 15px;
+}
+.ft1{
+    width: 24%;
+    height: 100%;
+    background-color: transparent;
+}
+.ft1 img{
+    width: 100%;
+    height: 100%;
+}
+.ft2{
+    width: 24%;
+    height: 100%;
+    background-color: aqua;
+}
+.ft2 img{
+    width: 100%;
+    height: 100%;
+}
+.ft3{
+    width: 23%;
+    height: 100%;
+    background-color: aqua;
+}
+.ft3 img{
+    width: 100%;
+    height: 100%;
+}
+.ft4{
+    width: 23%;
+    height: 100%;
+    background-color: aqua;
+}
+.ft4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.five{
+    width: 100%;
+    height:  600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.fiveitem1{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 17px;
+    color: purple;
+    gap: 25px;
+}
+.fiveitem2{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fiveitem2 img{
+    width: 100%;
+    height: 100%;
+}
+.fiveitem1 p{
+    cursor: pointer;
+}
+
+.six{
+    width: 93%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial;
+}
+.sixitem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.sixitem2{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.sixitem2 span{
+    color: blue;
+    cursor: pointer;
+}
+
+.seven{
+    width: 100%;
+    height:  600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.sevenitem1{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 17px;
+    color: purple;
+    gap: 25px;
+}
+.sevenitem2{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sevenitem2 img{
+    width: 100%;
+    height: 100%;
+}
+.sevenitem1 p{
+    cursor: pointer;
+}
+
+.eight{
+    width: 93%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial;
+}
+.eightitem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.eightitem2{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.eightitem2 span{
+    color: blue;
+    cursor: pointer;
+}
+
+.nine{
+    width: 100%;
+    height:  600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nineitem1{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 17px;
+    color: purple;
+    gap: 25px;
+}
+.nineitem2{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nineitem2 img{
+    width: 100%;
+    height: 100%;
+}
+.nineitem1 p{
+    cursor: pointer;
+}
+
+.ten{
+    width: 93%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial;
+}
+.tenitem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.tenitem2{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.tenitem2 span{
+    color: blue;
+    cursor: pointer;
+}
+
+.eleven{
+    width: 100%;
+    height:  600px;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.elevenitem1{
+    width: 30%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    font-size: 17px;
+    color: purple;
+    gap: 25px;
+}
+.elevenitem2{
+    width: 70%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elevenitem2 img{
+    width: 100%;
+    height: 100%;
+}
+.elevenitem1 p{
+    cursor: pointer;
+}
+
+.twelve{
+    width: 93%;
+    height: 200px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial;
+}
+.twelveitem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    font-family: Arial;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding-top: 10px;
+}
+.twelveitem2{
+    width: 49%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+.twelveitem2 span{
+    color: blue;
+    cursor: pointer;
+}
+
+.thirteen{
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+}
+
+.fourteen{
+    width: 100%;
+    height: 700px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: Arial;
+}
+.fourteenitem1{
+    width: 40%;
+    height: 98%;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 6px 1px grey;
+}
+.fourteenitem2{
+    width: 40%;
+    height: 98%;
+    background-color: transparent;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 0 0 6px 1px grey;
+}
+.fteenimg1{
+    width: 94%;
+    height: 57%;
+    background-color: blue;
+}
+.fteenimg2{
+    width: 94%;
+    height: 60%;
+    background-color: blue;
+}
+.fteenimg1 img{
+    width: 100%;
+    height: 100%;
+}
+.fteenimg2 img{
+    width: 100%;
+    height: 100%;
+}
+.fourteen span{
+    color: blue;
+}
+
+
+.fifteen{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(57, 57, 182);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial;
+    color: white;
+}
+.fifteenitem1{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 150px;
+}
+.fifteenitem2{
+    width: 40%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    padding-left: 200px;
+    font-size: 18px;
+}
+span{
+    display: flex;
+    gap: 20px;
+}
+span button{
+    width: 120px;
+    height: 40px;
+}
+.first{
+    background-color: white;
+    border: none;
+} 
+.secnd{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+
+.sixteen{
+    width: 100%;
+    height: 150px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    font-family: Arial;
+    font-size: 17px;
+    gap: 20px;
+}
+.sixteen img{
+    width: 30px;
+    height: 30px;
+}
+
+.seventeen{
+    width: 100%;
+    height: 450px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 20px;
+    padding-left: 150px;
+    font-family: Arial;
+    font-size: 12px;
+}
+.seventeenitem1{
+    width: 15%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+.seventeenitem2{
+    width: 15%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+.seventeenitem3{
+    width: 15%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+.seventeenitem4{
+    width: 15%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+.seventeenitem5{
+    width: 15%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
+.seventeenitem6{
+    width: 15%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+}
